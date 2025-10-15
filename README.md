@@ -1,4 +1,4 @@
-# 🔐 Ultimate Password Pattern Generator
+# 🔐 Ultimate Password Generator
 
 A Tkinter-based desktop software for generating all possible password patterns that include uppercase/lowercase word variations, numeric values, and special characters — with randomized order for each password.
 
@@ -31,7 +31,7 @@ This tool is currently in active development, and while it performs powerful com
 
 ## 🛠️ Technologies Used
 
- Python 3.x
+ Python 3.13.5
  Tkinter (for GUI)
  itertools, random, os (standard Python libraries)
 
@@ -94,7 +94,7 @@ The program currently:
 
 ## 📸 Screenshots (Coming Soon)
 
-A preview of the GUI interface will be added once the final design is polished.
+
 
 ---
 
