@@ -84,12 +84,15 @@ def create_gui():
 
     # Main window
     root = tk.Tk()
-    root.title("🔐 Ultimate Password Pattern Generator")
+    root.title("Ultimate Password Generator")
     root.geometry("650x600")
     root.config(bg="#2D1115")
+    
+    icon = tk.PhotoImage(file="images/keys.png")  # Must be .png
+    root.iconphoto(False, icon)
 
     # Title label
-    tk.Label(root, text="Password Generator", font=("Arial", 18, "bold"), bg="#2D1115", fg="white").pack(pady=10)
+    tk.Label(root, text="Ultimate Password Generator", font=("Arial", 18, "bold"), bg="#2D1115", fg="white").pack(pady=10)
 
     # Input frame
     frame = tk.Frame(root, bg="#2D1115")
