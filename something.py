@@ -24,7 +24,7 @@ def generate_all_passwords(base_word, num_digits, num_specials):
 
     # Generate all possible combinations for specials (with limited randomization)
     special_combos = []
-    for _ in range(50):  # limit for speed
+    for _ in range(100):  # limit for speed
         combo = ''.join(random.choices(SPECIAL_CHARS, k=num_specials))
         special_combos.append(combo)
 
