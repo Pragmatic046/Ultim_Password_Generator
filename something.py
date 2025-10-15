@@ -88,7 +88,7 @@ def create_gui():
     root.geometry("650x600")
     root.config(bg="#2D1115")
     
-    icon = tk.PhotoImage(file="images/keys.png")  # Must be .png
+    icon = tk.PhotoImage(file="images/icons/keys.png")  # Must be .png
     root.iconphoto(False, icon)
 
     # Title label
