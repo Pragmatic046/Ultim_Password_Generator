@@ -94,7 +94,7 @@ The program currently:
 
 ## 📸 Screenshots (Coming Soon)
 
-A preview of the GUI interface will be added once the final design is polished.
+
 
 ---
 
