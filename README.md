@@ -1,7 +1,3 @@
-Here’s a professional README.md file for your password generator project — written in an “official + in-progress” tone, reflecting that you’re actively developing it and plan to expand features:
-
----
-
 # 🔐 Ultimate Password Pattern Generator
 
 A Tkinter-based desktop software for generating all possible password patterns that include uppercase/lowercase word variations, numeric values, and special characters — with randomized order for each password.
