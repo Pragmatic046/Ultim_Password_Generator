@@ -54,7 +54,7 @@ def create_gui():
         if not word:
             messagebox.showwarning("Warning", "Please enter a base word.")
             return
-        if num_digits < 1 or num_specials < 1:
+        if num_digits <= -1 or num_specials <= -1:
             messagebox.showwarning("Warning", "Values must be greater than zero.")
             return
 
